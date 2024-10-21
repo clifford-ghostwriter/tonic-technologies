@@ -81,6 +81,7 @@ const Wrapper = styled.div`
   .feature {
     height: 575px;
     width: 300px;
+    /* display: none; */
   }
   .faq_section {
     display: flex;
@@ -95,6 +96,7 @@ const Wrapper = styled.div`
   .faq img {
     width: 500px;
     height: 168px;
+    /* display: none; */
   }
   .services {
     display: flex;
