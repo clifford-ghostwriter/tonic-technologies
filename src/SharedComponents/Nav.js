@@ -25,7 +25,7 @@ const Wrapper = styled.nav`
     /* border: 1px solid red; */
 
     img {
-      border: 1px solid red;
+      /* border: 1px solid red; */
     }
   }
 `;
