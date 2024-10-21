@@ -19,7 +19,7 @@ const Wrapper = styled.nav`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 16px;
+    height: 42px;
   }
 `;
 export default Nav;
