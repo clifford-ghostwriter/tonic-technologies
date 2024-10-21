@@ -1,26 +1,10 @@
 :root {
-  /* primary-colors */
-  --clr--primary-black: #000000;
-
-  /* font-sizes */
-  --fs-300: 0.5rem;
-
-  /* sizes */
-  --size--25: 0.5rem;
-
-  /* height */
-  --height--100: 35rem;
-  /* shadow */
-  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --transition: all 0.3s linear;
-  --transition-two: all 0.3s ease;
-  --transition-slow: all 0.5s linear;
+  --padding: 16px;
+  --padding-medium: 24px;
+  --padding-large: 42px;
+  --gap-small: 16px;
+  --gap-medium: 32px;
+  --gap-large: 42px;
 }
 
 /* Box sizing rules */
@@ -110,79 +94,4 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-@keyframes animation-one {
-  0% {
-    left: 5rem;
-  }
-
-  25% {
-    left: 3rem;
-  }
-
-  50% {
-    left: 2rem;
-  }
-
-  75% {
-    left: 3rem;
-  }
-
-  100% {
-    left: 5rem;
-  }
-}
-
-/* The element to apply the animation to */
-.animation-one {
-  animation-name: animation-one;
-  animation-duration: 4s;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes animation-two {
-  0% {
-    bottom: 4rem;
-  }
-
-  25% {
-    bottom: 2rem;
-  }
-
-  50% {
-    bottom: 1rem;
-  }
-
-  75% {
-    bottom: 2rem;
-  }
-
-  100% {
-    bottom: 4rem;
-  }
-}
-
-/* The element to apply the animation to */
-.animation-two {
-  animation-name: animation-two;
-  animation-duration: 4s;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.Toastify__toast {
-  text-transform: capitalize;
-  color: black;
-  width: 339px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }

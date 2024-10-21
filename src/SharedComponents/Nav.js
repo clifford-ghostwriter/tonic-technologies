@@ -11,8 +11,7 @@ const Nav = () => {
 };
 
 const Wrapper = styled.nav`
-  /* border: 1px solid red; */
-  padding-block: 1rem;
+  padding-top: var(--padding);
   background-color: #0a2640;
 
   .nav_center {
@@ -21,7 +20,6 @@ const Wrapper = styled.nav`
     background-size: cover;
     background-position: center;
     height: 16px;
-    /* border: 1px solid red; */
   }
 `;
 export default Nav;

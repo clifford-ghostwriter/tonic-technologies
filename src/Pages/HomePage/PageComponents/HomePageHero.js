@@ -19,10 +19,9 @@ const HomePageHero = () => {
 const Wrapper = styled.div`
   background-color: #0a2640;
   color: white;
-  /* border: 1px solid red; */
+  padding-top: var(--padding-medium);
 
   .section_center {
-    /* border: 1px solid red; */
     padding: 0;
   }
 `;

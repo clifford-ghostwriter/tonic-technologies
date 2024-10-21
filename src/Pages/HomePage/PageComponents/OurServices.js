@@ -26,7 +26,7 @@ const OurServices = () => {
           <img src={serviceImageThree} alt="" className="feature" />
         </div>
 
-        <div className="srvices">
+        <div className="services">
           <img src={serviceImageFour} alt="" className="service" />
           <img src={serviceImageFive} alt="" className="service" />
         </div>
@@ -50,19 +50,18 @@ const OurServices = () => {
 };
 
 const Wrapper = styled.div`
-  /* border: 1px solid red; */
-  padding-top: 3rem;
+  padding-top: var(--padding-large);
 
   .section_center {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: var(--gap-large);
   }
 
   .section_header {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap-small);
     text-align: center;
     align-items: center;
   }
@@ -77,17 +76,12 @@ const Wrapper = styled.div`
 
   .features {
     display: flex;
-    /* border: 1px solid red; */
     justify-content: space-between;
-    /* gap: 16px; */
   }
 
   .feature {
     height: 250px;
     width: 150px;
-    /* border: 1px solid red; */
-    /* display: none; */
-    /* object-fit: contain; */
   }
   .faq_section {
     display: flex;
@@ -101,6 +95,11 @@ const Wrapper = styled.div`
 
   .faq img {
     width: 200px;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
   }
 `;
 export default OurServices;

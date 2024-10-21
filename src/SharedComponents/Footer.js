@@ -13,6 +13,6 @@ const Footer = () => {
 };
 
 const Wrapper = styled.footer`
-  padding-top: 3rem;
+  padding-top: var(--padding-large);
 `;
 export default Footer;
