@@ -54,6 +54,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: var(--gap-large);
+    gap: 1.5rem;
   }
 
   .section_header {
@@ -93,7 +94,8 @@ const Wrapper = styled.div`
   }
 
   .faq img {
-    /* width: 200px; */
+    width: 500px;
+    height: 168px;
   }
   .services {
     display: flex;
