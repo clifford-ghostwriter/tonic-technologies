@@ -9,39 +9,37 @@ import websiteTemplate from "../../../Assets/Images/HomePageImages/websiteTempla
 import faqImageOne from "../../../Assets/Images/HomePageImages/faqImageOne.png";
 import faqImageTwo from "../../../Assets/Images/HomePageImages/faqImageTwo.png";
 import faqImageThree from "../../../Assets/Images/HomePageImages/faqImageThree.png";
+import header from "../../../Assets/Images/HomePageImages/ourServicesHeader.png";
 
 const OurServices = () => {
   return (
     <Wrapper className="container">
       <div className="section_center">
         <div className="section_header">
-          <h3 className="heading"> our services</h3>
-          <p className="sub_heading">
-            Handshake infographic mass market crowfunding iteration
-          </p>
+          <img src={header} alt="heading" className="heading" />
         </div>
         <div className="features">
-          <img src={serviceImageOne} alt="" className="feature" />
-          <img src={serviceImageTwo} alt="" className="feature" />
-          <img src={serviceImageThree} alt="" className="feature" />
+          <img src={serviceImageOne} alt="faeture" className="feature" />
+          <img src={serviceImageTwo} alt="faeture" className="feature" />
+          <img src={serviceImageThree} alt="faeture" className="feature" />
         </div>
 
         <div className="services">
-          <img src={serviceImageFour} alt="" className="service" />
-          <img src={serviceImageFive} alt="" className="service" />
+          <img src={serviceImageFour} alt="service" className="service" />
+          <img src={serviceImageFive} alt="service" className="service" />
         </div>
 
         <div className="website_template">
-          <img src={websiteTemplate} alt="" className="service" />
+          <img src={websiteTemplate} alt="service" className="service" />
         </div>
 
         <div className="faq_section">
           <div className="faq_image">
-            <img src={faqImageOne} alt="" className="service" />
+            <img src={faqImageOne} alt="service" className="service" />
           </div>
           <div className="faq">
-            <img src={faqImageTwo} alt="" className="service" />
-            <img src={faqImageThree} alt="" className="service" />
+            <img src={faqImageTwo} alt="service" className="service" />
+            <img src={faqImageThree} alt="service" className="service" />
           </div>
         </div>
       </div>
@@ -67,7 +65,8 @@ const Wrapper = styled.div`
   }
 
   .heading {
-    font-size: 12px;
+    width: 842px;
+    height: 184px;
   }
 
   .sub_heading {
@@ -80,8 +79,8 @@ const Wrapper = styled.div`
   }
 
   .feature {
-    height: 250px;
-    width: 150px;
+    height: 575px;
+    width: 300px;
   }
   .faq_section {
     display: flex;
