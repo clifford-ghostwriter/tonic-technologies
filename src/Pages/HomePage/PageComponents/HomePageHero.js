@@ -19,7 +19,7 @@ const HomePageHero = () => {
 const Wrapper = styled.div`
   background-color: #0a2640;
   color: white;
-  padding-top: var(--padding-medium);
+  padding-top: var(--padding-large);
 
   .section_center {
     padding: 0;
