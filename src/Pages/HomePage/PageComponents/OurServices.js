@@ -54,7 +54,6 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: var(--gap-large);
-    gap: 1.5rem;
   }
 
   .section_header {
@@ -86,7 +85,7 @@ const Wrapper = styled.div`
   .faq_section {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: var(--gap-medium);
   }
   .faq {
     display: flex;
@@ -100,7 +99,7 @@ const Wrapper = styled.div`
   .services {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-small);
+    gap: var(--gap-medium);
   }
 `;
 export default OurServices;

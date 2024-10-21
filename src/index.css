@@ -1,10 +1,10 @@
 :root {
   --padding: 16px;
-  --padding-medium: 24px;
-  --padding-large: 42px;
+  --padding-medium: 2rem;
+  --padding-large: 4rem;
   --gap-small: 16px;
-  --gap-medium: 32px;
-  --gap-large: 42px;
+  --gap-medium: 2rem;
+  --gap-large: 4rem;
 }
 
 /* Box sizing rules */
