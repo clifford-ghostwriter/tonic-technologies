@@ -20,7 +20,8 @@ const OurBlog = () => {
 };
 
 const Wrapper = styled.div`
-  padding-top: var(--padding-large);
+  padding-top: 3rem;
+
   .section_center {
     display: flex;
     flex-direction: column;

@@ -5,7 +5,7 @@ import navImage from "../Assets/Images/SharedImages/navImage.png";
 const Nav = () => {
   return (
     <Wrapper className="container-fluid" $navbcg={navImage}>
-      <div className="nav_center">
+      <div className="nav_center container">
         <img src={navImage} alt="" />
       </div>
     </Wrapper>
@@ -22,7 +22,7 @@ const Wrapper = styled.nav`
     background-size: cover;
     background-position: center;
     /* height: 42px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     img {
       border: 1px solid red;
