@@ -85,7 +85,7 @@ const Wrapper = styled.div`
   .faq_section {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
   }
   .faq {
     display: flex;
@@ -93,7 +93,7 @@ const Wrapper = styled.div`
   }
 
   .faq img {
-    width: 200px;
+    /* width: 200px; */
   }
   .services {
     display: flex;
